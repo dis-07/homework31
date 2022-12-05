@@ -4,7 +4,7 @@ module.exports = {
     'plugin:react/recommended',
     'airbnb',
     'airbnb/hooks',
-    'plugin:prettier/recommended',
+    // 'plugin:prettier/recommended',
   ],
   env: {
     browser: true,
@@ -16,7 +16,7 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'react/function-component-definition': 'off',
   },
-  plugins: ['prettier'],
+  // plugins: ['prettier'],
   ignorePatterns: ['.eslintrc.js'],
   settings: {
     'import/resolver': {

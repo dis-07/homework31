@@ -1,6 +1,10 @@
-import { useState, useEffect } from "react";
-import axios from "helpers/axios";
-import PropTypes from "prop-types";
+/* eslint-disable react/require-default-props */
+/* eslint-disable react/no-unused-prop-types */
+/* eslint-disable camelcase */
+import { useState, useEffect } from 'react';
+import axios from 'helpers/axios';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import PropTypes from 'prop-types';
 
 const ImagesList = () => {
   const [photos, setPhotos] = useState([]);
