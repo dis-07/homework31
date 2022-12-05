@@ -1,28 +1,28 @@
 module.exports = {
   extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'airbnb',
-    'airbnb/hooks',
-    // 'plugin:prettier/recommended',
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "airbnb",
+    "airbnb/hooks",
+    "plugin:prettier/recommended"
   ],
   env: {
     browser: true,
-    jest: true,
+    jest: true
   },
   rules: {
-    'react/react-in-jsx-scope': 'off',
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx'] }],
-    'import/prefer-default-export': 'off',
-    'react/function-component-definition': 'off',
+    "react/react-in-jsx-scope": "off",
+    "react/jsx-filename-extension": [1, { extensions: [".js", ".jsx"] }],
+    "import/prefer-default-export": "off",
+    "react/function-component-definition": "off"
   },
-  // plugins: ['prettier'],
-  ignorePatterns: ['.eslintrc.js'],
+  plugins: ["prettier"],
+  ignorePatterns: [".eslintrc.js", "SKIP_PREFLIGHT_CHECK = true"],
   settings: {
-    'import/resolver': {
+    "import/resolver": {
       node: {
-        paths: ['src'],
-      },
-    },
-  },
+        paths: ["src"]
+      }
+    }
+  }
 };

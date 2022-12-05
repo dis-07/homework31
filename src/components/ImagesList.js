@@ -1,10 +1,10 @@
 /* eslint-disable react/require-default-props */
 /* eslint-disable react/no-unused-prop-types */
 /* eslint-disable camelcase */
-import { useState, useEffect } from 'react';
-import axios from 'helpers/axios';
+import { useState, useEffect } from "react";
+import axios from "helpers/axios";
 // eslint-disable-next-line import/no-extraneous-dependencies
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 const ImagesList = () => {
   const [photos, setPhotos] = useState([]);
@@ -46,7 +46,7 @@ const ImagesList = () => {
 
 ImagesList.propTypes = {
   src: PropTypes.string,
-  alt: PropTypes.string,
+  alt: PropTypes.string
 };
 
 export default ImagesList;

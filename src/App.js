@@ -1,4 +1,4 @@
-import ImagesList from 'components/ImagesList';
+import ImagesList from "components/ImagesList";
 
 function App() {
   return <ImagesList />;
